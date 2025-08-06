@@ -1,0 +1,209 @@
+.WeAre-background{
+    width: 100%;
+    height: 150px;
+    margin-bottom: -100px;
+    background: linear-gradient(to top right, var(--color-purple), var(--color-blue));
+}
+
+.WeAre-fir-mobile{
+    display: none;
+}
+
+.WeAre-fir h2{
+    color:var(--color-white);
+    /* padding: 0 150px; */
+    font-size: 50px;
+    height: 100px;
+    font-weight: 600;
+}
+
+.WeAre-fir > p{
+    font-size:25px;
+    /* padding: 50px 0 50px 150px; */
+    padding: 50px 0 50px;
+    width: 40vw;
+}
+
+.WeAre-fir > ul{
+    /* padding-left: 150px; */
+}
+
+.WeAre-fir > ul li{
+    list-style: none;
+}
+
+.WeAre-fir > ul li h3::before {
+    content: ''; 
+    display: inline-block; 
+    width: 20px; 
+    height: 20px; 
+    margin-right: 15px; 
+    background-image: url('../../img/weare_pin.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.WeAre-fir > ul li h3 {
+    display: flex; 
+    align-items: center; 
+    font-size: 25px; 
+    font-weight: 600;
+    color: var(--color-black); 
+}
+
+.WeAre-absolute{
+    display: flex;
+    justify-content: center;
+}
+
+.WeAre-sec{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: -50px;
+}
+
+.WeAre-sec img{
+    width: 40vw;
+    margin-bottom: -30px;
+}
+
+.WeAre-sec > p{
+    border-top:20px solid var(--color-green);
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 25px;
+    width: 35vw;
+    /* transform: translateX(-100px); */
+}
+
+.WeAre-mobile{
+    display: none;
+}
+
+
+
+@media(max-width:980px){
+    .WeAre-mobile{
+        display: block;
+    }
+    .WeAre-desktop{
+        display: none;
+    }
+
+    .WeAre-fir{
+        display: none;
+        padding: 0 20px;
+    }
+
+    .WeAre-fir-mobile{
+        display: block;
+        height: auto;
+        width: calc(100% -40px);
+    }
+
+
+    .WeAre-absolute{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .WeAre-sec{
+        align-items: center;
+
+    }
+
+
+    .WeAre-sec > img{
+        width: 80vw;
+        margin-bottom: 0;
+    }
+
+    .WeAre-sec > p{
+        border-top:none;
+        background-color: var(--color-black);
+        color: var(--color-white);
+        padding:20px 40px;
+        margin-right: 0;
+        font-size: 25px;
+        width: calc(80vw - 80px);
+        position: relative;
+        /* transform: translateX(-100px); */
+    }
+
+    .WeAre-sec > p::before{
+        content: '';
+        position: absolute;
+        top:-15px;
+        right: 20px;
+        width:40vw;
+        height: 30px;
+        background-color: var(--color-green);
+    }
+
+    .WeAre-background{
+        height: auto;
+        margin-bottom: 0;
+        background: linear-gradient(to top right, var(--color-purple), var(--color-blue));
+        padding: 20px 0;
+    }
+
+    .WeAre-fir > p {
+        width:calc(100% - 40px);
+        padding: 10px 0;
+        color: var(--color-white);
+        font-size: 20px;
+    }
+
+    .WeAre-sec > p{
+        font-size: 20px;
+    }
+
+    .WeAre-fir-mobile > h2{
+        /* width:12px; */
+        height: auto;
+        font-size: 25px;
+        display: inline-block;
+    }
+
+    .WeAre-mobile{
+        margin: 30px 0;
+    }
+
+    .WeAre-mobile li{
+        list-style: none;
+    }
+
+    .WeAre-mobile li h3::before {
+        content: ''; 
+        display: inline-block; 
+        width: 20px; 
+        height: 20px; 
+        margin-right: 15px; 
+        background-image: url('../../img/weare_pin.png'); 
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .WeAre-mobile li h3 {
+        display: flex; 
+        align-items: center; 
+        font-size: 25px; 
+        font-weight: 600;
+        color: var(--color-black); 
+    }
+}
+
+@media (max-width:480px) {
+    .WeAre-sec > p::before {
+        height:20px;
+        width: 65%;
+        top: -10px;
+        right: 0;
+    }
+}

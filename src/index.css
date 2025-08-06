@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'Circe Light';
+    src:url('./fonts/Circe-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+  font-family: 'Circe Light';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-white: #ffffff;
+  --color-blue: #3bb1ff;
+  --color-green: #95c940;
+  --color-purple: #A8328E;
+  --color-black: #17191f;
 }
+
+/* .App{
+  background: linear-gradient(to top right, var(--color-purple), var(--color-blue));
+  padding: 300px ;
+} */

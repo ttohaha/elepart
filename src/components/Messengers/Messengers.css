@@ -1,0 +1,19 @@
+.messengers img{
+    width:20px;
+    padding: 3px;
+}
+
+.messengers a{
+    background-color: var(--color-white);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.messengers a:last-child{
+    margin: 0;
+}

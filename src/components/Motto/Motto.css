@@ -1,0 +1,95 @@
+.motto{
+    background-image: url("../../img/motto.jpg");
+    /* height: 900px; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 0 150px 50px 150px;
+}
+
+.motto > p{
+  background: linear-gradient(to top right, var(--color-purple), var(--color-blue));
+  font-size: 40px;
+  padding: 75px 0 30px 30px;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.motto > p > span{
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.motto > div > p{
+    margin: 30px;
+    font-size: 30px;
+}
+
+.motto-button{
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 20px 30px;
+    font-size: 30px;
+}
+
+.motto-span{
+  font-weight: 600;
+}
+
+@media(max-width:980px){
+  .motto{
+    padding: 0 50px 50px;
+  }
+
+  .motto > p{
+    padding-top: 50px;
+    font-size: 30px;
+  }
+
+  .motto > div > p{
+    font-size: 20px;
+  }
+  
+  .motto-button{
+    font-size: 20px;
+    width: auto;
+  }
+
+  .motto > p > span{
+  font-weight: 600;
+  font-size: 40px;
+}
+}
+
+@media(max-width:480px){
+  .motto > p{
+    font-size: 25px;
+  }
+
+  .motto > p > span{
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .motto{
+    padding: 0 30px 50px;
+  }
+
+.motto-button {
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+  /* .motto > div > p{
+    font-size: 10px;
+  }
+  
+  .motto-button{
+    font-size: 10px;
+    width: auto;
+  } */
+
+  
+}
