@@ -3,6 +3,7 @@ header{
     padding: 0 30px;
     font-size: 20px;
     position: sticky;
+    z-index: 200;
     top: 0;
 }
 

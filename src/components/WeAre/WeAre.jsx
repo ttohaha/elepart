@@ -5,7 +5,7 @@ import './WeAre.css'
 
 function WeAre() {
   return (
-    <div>
+    <div className='WeAre'>
         <div className='WeAre-background'><div className='WeAre-fir WeAre-fir-mobile'>
                 <h2>Кто мы?</h2>
                 <p>Сервисный центр Элепарт выполняет ремонт цифровых, оптических и коллиматорных прицелов, тепловизоров и приборов ночного видения.</p>
